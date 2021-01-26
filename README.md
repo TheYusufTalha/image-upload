@@ -8,4 +8,4 @@ Void Development © All right reserved.
 - Does not require a database
 - Works on any hosting (except glitch etc.)
 
-![](https://cdn.discordapp.com/icons/701153938870894673/ee035194b372e0a60a4b880a9f785eba.png?size=2048)
+![](https://cdn.discordapp.com/icons/701153938870894673/ee035194b372e0a60a4b880a9f785eba.png?size=512)
