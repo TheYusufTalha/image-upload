@@ -1,4 +1,4 @@
-# image-upload
+# Image Upload
 Void Development © All right reserved.
 
 ### Features
@@ -8,6 +8,4 @@ Void Development © All right reserved.
 - Does not require a database
 - Works on any hosting (except glitch etc.)
 
-# Image Upload
-
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+![](https://cdn.discordapp.com/icons/701153938870894673/ee035194b372e0a60a4b880a9f785eba.png?size=2048)
