@@ -1,0 +1,1 @@
+<?php include 'anasayfa.php';?>

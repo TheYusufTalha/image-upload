@@ -1,0 +1,208 @@
+
+
+    h2{
+      color:#000;
+      text-align:center;
+      font-size:2em;
+    }
+    .warpper{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .tab{
+      cursor: pointer;
+      padding:10px 20px;
+      margin:0px 2px;
+      background:#fff;
+      display:inline-block;
+      color:#0000;
+      border-radius:3px 3px 0px 0px;
+      box-shadow: 0 0.5rem 0.8rem #ffff;
+    }
+
+    .panel{
+      display:none;
+      animation: fadein .8s;
+    }
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    .panel-title{
+      font-size:1.5em;
+      font-weight:bold
+    }
+    .radio{
+      display:none;
+    }
+    #one:checked ~ .panels #one-panel,
+    #two:checked ~ .panels #two-panel,
+    #three:checked ~ .panels #three-panel{
+      display:block
+    }
+    #one:checked ~ .tabs #one-tab,
+    #two:checked ~ .tabs #two-tab,
+    #three:checked ~ .tabs #three-tab{
+      background:#0000;
+      color:#fff;
+      border-top: 3px solid #000;
+    }
+
+
+
+
+
+
+    
+
+.hero {
+  background-color: #3d90ef;
+  width: 100%;
+  min-width: 100%;
+  height: 70%;
+  z-index: 11;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+.hero-right {
+  float:right;
+}
+.hero-left {
+  float:right;
+}
+
+
+
+
+:root {
+  --input-color: #99A3BA;
+  --input-border: #CDD9ED;
+  --input-background: #fff;
+  --input-placeholder: #CBD1DC;
+  --input-border-focus: #275EFE;
+  --group-color: var(--input-color);
+  --group-border: var(--input-border);
+  --group-background: #EEF4FF;
+  --group-color-focus: #fff;
+  --group-border-focus: var(--input-border-focus);
+  --group-background-focus: #678EFE;
+}
+
+.form-field {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  color: #000;
+  border: 1px solid var(--group-border-focus);
+  background: var(--input-background);
+  transition: border 0.3s ease;
+}
+.form-field::-moz-placeholder {
+  color: var(--input-placeholder);
+}
+.form-field:-ms-input-placeholder {
+  color: var(--input-placeholder);
+}
+.form-field::placeholder {
+  color: var(--input-placeholder);
+}
+.form-field:focus {
+  outline: none;
+  border-color: var(--input-border-focus);
+}
+
+.form-group {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+.form-group > span,
+.form-group .form-field {
+  white-space: nowrap;
+  display: block;
+}
+.form-group > span:not(:first-child):not(:last-child),
+.form-group .form-field:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+.form-group > span:first-child,
+.form-group .form-field:first-child {
+  border-radius: 6px 0 0 6px;
+}
+.form-group > span:last-child,
+.form-group .form-field:last-child {
+  border-radius: 0 6px 6px 0;
+}
+.form-group > span:not(:first-child),
+.form-group .form-field:not(:first-child) {
+  margin-left: -1px;
+}
+.form-group .form-field {
+  position: relative;
+  z-index: 1;
+  flex: 1 1 auto;
+  width: 1%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.form-group > span {
+  text-align: center;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 25px;
+  color: var(--group-color-focus);
+  background: var(--group-background-focus);
+  border: 1px solid var(--group-border-focus);
+  transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+.form-group:focus-within > span {
+  color: var(--group-color-focus);
+  background: var(--group-background-focus);
+  border-color: var(--group-border-focus);
+}
+
+body .form-group {
+  max-width: 50%;
+}
+body .form-group:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.neden-biz:hover {
+  --webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+
+.footers a {color:#696969;}
+.footers p {color:#696969;}
+.footers ul {line-height:30px;}
+#social-fb:hover {
+     color: #3B5998;
+     transition:all .001s;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+     transition:all .001s;
+ }
+ #social-gp:hover {
+     color: #d34836;
+     transition:all .001s;
+ }
+ #social-em:hover {
+     color: #f39c12;
+     transition:all .001s;
+ }
